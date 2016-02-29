@@ -1,4 +1,5 @@
 from PIL import Image
+import convert
 
 #Uncomment multiline comment below when there is a image in folder
 #type picture name in open() function below
@@ -14,7 +15,7 @@ rgb_im = im.convert('RGB')
 """
 for x in range(0, width):
 	for y in range(0, height);
-		
+		r, g, b = rgb_im.getPixel((x, y))
 
 """
 

@@ -15,6 +15,9 @@ def convertToAsci(ch)
 	asciVal = ord(ch)
 	return asciVal
 
+#Summary: This function converts a binary value to decimal format
+#Precondiition: Pass in binary value
+#Postcondtion: Returns decimal value representing the binary value passed in
 def convertToDecimal(bVal):
 	decVal = int(bVal, 2)
 	return decVal
